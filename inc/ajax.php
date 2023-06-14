@@ -56,11 +56,11 @@ class Ajax extends Md_Ai_Content_Writer {
 					<span class="md-ai-api-error"></span>
 					<p class="md-ai-popup-modal-subtile"><?php esc_html_e( 'AI/GPT-3', 'md-ai-content-writer' ) ?></p>
 					<label class="md-ai-prompt-checkbox-label md-ai-prompt-checkbox-skip-content-label"><input type="checkbox" name="skip_content_generate" value="1" class="md-ai-skip-content-generate"><?php esc_html_e( 'Skip content generate', 'md-ai-content-writer' ) ?></label>
-					<input id="md-ai-prompt-input" autocomplete="off" type="text" name="md-ai-prompt" class="md-ai-prompt-box clearfix" placeholder="<?php esc_attr_e( 'Send a message here....' ); ?>">
+					<input id="md-ai-prompt-input" autocomplete="off" type="text" name="md-ai-prompt" class="md-ai-prompt-box clearfix" placeholder="<?php esc_attr_e( 'Send a message here....', 'md-ai-content-writer' ); ?>">
 					<label class="md-ai-prompt-checkbox-label"><input type="checkbox" name="generate_image" value="1" class="md-ai-generate-image" <?php echo checked( $generate_featured, 1 ); ?>><?php esc_html_e( 'Generate featured image', 'md-ai-content-writer' ) ?></label>
 					<label class="md-ai-prompt-checkbox-label"><input type="checkbox" name="add_conclusion" value="1" class="md-ai-add-conclusion" <?php echo checked( $add_conclusion, 1 ); ?>><?php esc_html_e( 'Add conclusion', 'md-ai-content-writer' ) ?></label>
 					<label class="md-ai-prompt-checkbox-label"><input type="checkbox" name="add_excerpt" value="1" class="md-ai-add-excerpt" <?php echo checked( $add_excerpt, 1 ); ?>><?php esc_html_e( 'Add excerpt', 'md-ai-content-writer' ) ?></label>
-					<button class="md-content-generator-btn components-button is-primary" aria-disabled="true"><?php esc_html_e( 'Generate Content' ) ?></button>
+					<button class="md-content-generator-btn components-button is-primary" aria-disabled="true"><?php esc_html_e( 'Generate Content', 'md-ai-content-writer' ) ?></button>
 
 					<span class="md-ai-api-generating-content"></span>
 				</div>

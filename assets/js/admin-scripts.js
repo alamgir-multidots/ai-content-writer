@@ -73,8 +73,12 @@
 			$( '.md-content-generator-btn' ).addClass('is-busy');
 			$(".md-ai-api-error").html('');
 
-			let generatingContent = $(".md-ai-api-generating-content");
-			MdAiContentWriterTypeWriter(generatingContent, md_ai_content_writer_admin_ajax_object.generating_content, 50);
+			setTimeout(function(){
+				if ( $(".md-ai-api-error").html() == '' ) {
+					let generatingContent = $(".md-ai-api-generating-content");
+					MdAiContentWriterTypeWriter(generatingContent, md_ai_content_writer_admin_ajax_object.generating_content, 50);
+				}
+			}, 5000);
 		},
 
 		/**
@@ -128,6 +132,7 @@
 				success( response ) {
 
 					if ( response.success == 0 ) {
+						$(".md-ai-api-generating-content").html('');
 						$(".md-ai-api-error").html(response.content);
 						MdAiContentWriterAdminScripts.errorAfterAjaxAction();
 						return;

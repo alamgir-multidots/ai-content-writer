@@ -71,7 +71,7 @@ class Md_Ai_Content_Writer {
 			'api_key_empty'         => __( 'API Key Empty! Set your api key first.', 'md-ai-content-writer' ),
 		];
 
-		return isset( $message[$type] ) ? $message[$type] : __( 'Something went wrong! Try again later.' );
+		return isset( $message[$type] ) ? $message[$type] : __( 'Something went wrong! Try again later.', 'md-ai-content-writer' );
 	}
 
 	/**

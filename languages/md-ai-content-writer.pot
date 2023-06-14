@@ -1,0 +1,546 @@
+# Copyright (C) 2023 Swhales
+# This file is distributed under the GPL v2.
+msgid ""
+msgstr ""
+"Project-Id-Version: MD AI Content Writer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/md-ai-content-writer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-14T18:48:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: md-ai-content-writer\n"
+
+#. Plugin Name of the plugin
+#: inc/ajax.php:55
+#: admin-core/assets/build/settings.js:201
+#: admin-core/assets/build/settings.js:177
+msgid "MD AI Content Writer"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.multidots.come/"
+msgstr ""
+
+#. Description of the plugin
+msgid "MD AI Content Writer is for WordPress Website"
+msgstr ""
+
+#. Author of the plugin
+msgid "Swhales"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://multidots.come/"
+msgstr ""
+
+#: admin-core/admin-menu.php:60
+msgid "Settings - MD AI Content Writer"
+msgstr ""
+
+#: admin-core/admin-menu.php:61
+msgid "AI Content Writer"
+msgstr ""
+
+#: admin-core/admin-menu.php:143
+msgid "No valid setting keys found."
+msgstr ""
+
+#: admin-core/admin-menu.php:154
+msgid "Settings saved successfully."
+msgstr ""
+
+#: admin-core/admin-menu.php:157
+msgid "Failed to save settings."
+msgstr ""
+
+#: inc/ajax.php:57
+msgid "AI/GPT-3"
+msgstr ""
+
+#: inc/ajax.php:58
+msgid "Skip content generate"
+msgstr ""
+
+#: inc/ajax.php:59
+msgid "Send a message here...."
+msgstr ""
+
+#: inc/ajax.php:60
+msgid "Generate featured image"
+msgstr ""
+
+#: inc/ajax.php:61
+#: admin-core/assets/build/settings.js:866
+#: admin-core/assets/build/settings.js:810
+msgid "Add conclusion"
+msgstr ""
+
+#: inc/ajax.php:62
+#: admin-core/assets/build/settings.js:854
+#: admin-core/assets/build/settings.js:784
+msgid "Add excerpt"
+msgstr ""
+
+#: inc/ajax.php:63
+msgid "Generate Content"
+msgstr ""
+
+#: inc/ajax.php:221
+msgid "Conclusion"
+msgstr ""
+
+#: inc/ajax.php:246
+#: inc/ajax.php:247
+#: inc/ajax.php:248
+msgid "Added"
+msgstr ""
+
+#: inc/ajax.php:246
+#: inc/ajax.php:247
+#: inc/ajax.php:248
+msgid "No"
+msgstr ""
+
+#: inc/logs-list-table.php:38
+msgid "Prompt Title"
+msgstr ""
+
+#: inc/logs-list-table.php:39
+msgid "Generated Image"
+msgstr ""
+
+#: inc/logs-list-table.php:40
+msgid "Add Conclusion"
+msgstr ""
+
+#: inc/logs-list-table.php:41
+msgid "Add Excerpt"
+msgstr ""
+
+#: inc/logs-list-table.php:42
+msgid "Date"
+msgstr ""
+
+#: inc/logs-list-table.php:43
+msgid "API Run"
+msgstr ""
+
+#: inc/logs-list-table.php:155
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: inc/logs-list-table.php:157
+msgid "Delete"
+msgstr ""
+
+#: inc/logs-list-table.php:174
+msgid "Successfully"
+msgstr ""
+
+#: inc/logs-list.php:45
+msgid "Logs List"
+msgstr ""
+
+#: inc/logs-list.php:46
+msgid "Logs"
+msgstr ""
+
+#: inc/logs-list.php:73
+msgid "Logs per page"
+msgstr ""
+
+#: inc/logs-list.php:100
+msgid "Update Log"
+msgstr ""
+
+#: inc/logs-list.php:101
+msgid "Update"
+msgstr ""
+
+#: inc/logs-list.php:119
+msgid "Log List Table"
+msgstr ""
+
+#: inc/md-ai-content-writer.php:68
+msgid "Invalid API Key! Check your API key."
+msgstr ""
+
+#: inc/md-ai-content-writer.php:69
+msgid "Insufficient Quota! Check billing info in your Open AI account."
+msgstr ""
+
+#: inc/md-ai-content-writer.php:70
+msgid "Server Error! Try again later."
+msgstr ""
+
+#: inc/md-ai-content-writer.php:71
+msgid "API Key Empty! Set your api key first."
+msgstr ""
+
+#: inc/md-ai-content-writer.php:74
+msgid "Something went wrong! Try again later."
+msgstr ""
+
+#: inc/scripts.php:113
+#: inc/scripts.php:159
+msgid "Sometings wrong! try again later"
+msgstr ""
+
+#: inc/scripts.php:114
+#: inc/scripts.php:160
+msgid "Required fields must be filled in"
+msgstr ""
+
+#: inc/scripts.php:115
+msgid "Generating your content, please wait for a few seconds!"
+msgstr ""
+
+#: plugin-loader.php:204
+#: admin-core/assets/build/settings.js:182
+#: admin-core/assets/build/settings.js:160
+msgid "Settings"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:77
+#: admin-core/assets/build/settings.js:75
+msgid "General Settings"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:81
+#: admin-core/assets/build/settings.js:82
+msgid "Header"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:85
+#: admin-core/assets/build/settings.js:88
+msgid "Footer"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:185
+#: admin-core/assets/build/settings.js:164
+msgid "Contents"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:214
+#: admin-core/assets/build/settings.js:205
+msgid "Notification"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:765
+#: admin-core/assets/build/settings.js:653
+msgid "Content"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:767
+#: admin-core/assets/build/settings.js:656
+msgid "Content Structure"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:768
+#: admin-core/assets/build/settings.js:657
+msgid "Choose what type of content structure want to generate."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:773
+#: admin-core/assets/build/settings.js:666
+msgid "Article"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:776
+#: admin-core/assets/build/settings.js:670
+msgid "Opinion"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:779
+#: admin-core/assets/build/settings.js:675
+msgid "Content Length"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:780
+#: admin-core/assets/build/settings.js:795
+#: admin-core/assets/build/settings.js:825
+#: admin-core/assets/build/settings.js:676
+#: admin-core/assets/build/settings.js:699
+#: admin-core/assets/build/settings.js:742
+msgid "Choose the content length."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:785
+#: admin-core/assets/build/settings.js:685
+msgid "Long"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:788
+#: admin-core/assets/build/settings.js:689
+msgid "Medium"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:791
+#: admin-core/assets/build/settings.js:693
+msgid "Short"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:794
+#: admin-core/assets/build/settings.js:698
+msgid "Writing Style"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:800
+#: admin-core/assets/build/settings.js:708
+msgid "Normal"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:803
+#: admin-core/assets/build/settings.js:712
+msgid "Business"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:806
+#: admin-core/assets/build/settings.js:716
+msgid "Technical"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:809
+#: admin-core/assets/build/settings.js:720
+msgid "Marketing"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:812
+#: admin-core/assets/build/settings.js:724
+msgid "Creative"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:815
+#: admin-core/assets/build/settings.js:728
+msgid "News"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:818
+#: admin-core/assets/build/settings.js:732
+msgid "Personal"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:821
+#: admin-core/assets/build/settings.js:736
+msgid "Informal"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:824
+#: admin-core/assets/build/settings.js:741
+msgid "Writing Tone"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:830
+#: admin-core/assets/build/settings.js:751
+msgid "Informative"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:833
+#: admin-core/assets/build/settings.js:755
+msgid "Professional"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:836
+#: admin-core/assets/build/settings.js:759
+msgid "Approachable"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:839
+#: admin-core/assets/build/settings.js:763
+msgid "Casual"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:842
+#: admin-core/assets/build/settings.js:767
+msgid "Serious"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:845
+#: admin-core/assets/build/settings.js:771
+msgid "Passionate"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:848
+#: admin-core/assets/build/settings.js:775
+msgid "Soothing"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:851
+#: admin-core/assets/build/settings.js:779
+msgid "Funny"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:855
+#: admin-core/assets/build/settings.js:785
+msgid "Add an introduction beginning of the topics."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:856
+#: admin-core/assets/build/settings.js:868
+#: admin-core/assets/build/settings.js:874
+#: admin-core/assets/build/settings.js:933
+#: admin-core/assets/build/settings.js:789
+#: admin-core/assets/build/settings.js:815
+#: admin-core/assets/build/settings.js:828
+#: admin-core/assets/build/settings.js:886
+msgid "Default value:"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:860
+#: admin-core/assets/build/settings.js:797
+msgid "Excerpt words"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:861
+#: admin-core/assets/build/settings.js:798
+msgid "Set how much excerpt words."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:862
+#: admin-core/assets/build/settings.js:802
+msgid "Default value: 100"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:867
+#: admin-core/assets/build/settings.js:811
+msgid "Add conclusion end of the topics."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:872
+#: admin-core/assets/build/settings.js:823
+msgid "Generate Featured Image"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:873
+#: admin-core/assets/build/settings.js:824
+msgid "Select this to auto-generate the thumbnail image. It will generate from your main prompt."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:878
+#: admin-core/assets/build/settings.js:836
+msgid "Image Size"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:879
+#: admin-core/assets/build/settings.js:837
+msgid "Choose the size of the image you want to generate."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:884
+#: admin-core/assets/build/settings.js:846
+msgid "Thumbnail (256x256px)"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:887
+#: admin-core/assets/build/settings.js:850
+msgid "Medium (512x512px)"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:890
+#: admin-core/assets/build/settings.js:854
+msgid "Large (1024x1024px)"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:929
+#: admin-core/assets/build/settings.js:878
+msgid "General"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:931
+#: admin-core/assets/build/settings.js:881
+msgid "API Key"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:932
+#: admin-core/assets/build/settings.js:882
+msgid "Enter your API key to use the GPT-3 API."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:937
+#: admin-core/assets/build/settings.js:894
+msgid "Temperature"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:938
+#: admin-core/assets/build/settings.js:895
+msgid "Control randomness: Lowering results in less random completions. As the temperature approaches zero, the model will become deterministic and repetitive. If it approaches one, the model will become more randomness and creative."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:939
+#: admin-core/assets/build/settings.js:899
+msgid "Default value: 0.8"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:943
+#: admin-core/assets/build/settings.js:907
+msgid "Max Tokens"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:944
+#: admin-core/assets/build/settings.js:908
+msgid "Set the maximum number of tokens to generate in a single request."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:945
+#: admin-core/assets/build/settings.js:912
+msgid "Default value: 150"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:949
+#: admin-core/assets/build/settings.js:920
+msgid "Top Prediction"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:950
+#: admin-core/assets/build/settings.js:921
+msgid "Adjust the Top-P (Top Prediction) parameter to control the diversity of the generated text."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:951
+#: admin-core/assets/build/settings.js:925
+msgid "Default value: 0.5"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:955
+#: admin-core/assets/build/settings.js:933
+msgid "Frequency Penalty"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:956
+#: admin-core/assets/build/settings.js:934
+msgid "Adjust the frequency penalty to control the frequency of words in the generated text."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:957
+#: admin-core/assets/build/settings.js:938
+msgid "Default value: 0"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:961
+#: admin-core/assets/build/settings.js:946
+msgid "Presence Penalty"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:962
+#: admin-core/assets/build/settings.js:947
+msgid "Adjust the presence penalty to control the presence of words in the generated text."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:963
+#: admin-core/assets/build/settings.js:951
+msgid "Default value: 0.6"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1036
+#: admin-core/assets/build/settings.js:1008
+msgid "Successfully saved!"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1043
+#: admin-core/assets/build/settings.js:1020
+msgid "Close"
+msgstr ""
