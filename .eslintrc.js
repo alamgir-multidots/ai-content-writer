@@ -1,0 +1,38 @@
+module.exports = {
+	extends: [ 'plugin:@wordpress/eslint-plugin/recommended-with-formatting' ],
+	rules: {
+		camelcase: 'off',
+		'import/no-unresolved': 'off',
+		'no-console': 'off',
+		'no-alert': 'off',
+		'@wordpress/no-global-event-listener': 'off',
+		'space-before-function-paren': 'off',
+		'wrap-iife': 'off',
+		'react/jsx-indent-props': 'off',
+		'no-mixed-spaces-and-tabs': 'off',
+		'no-mixed-operators': 'off',
+		'react/jsx-indent': 'off',
+		'jsx-a11y/click-events-have-key-events': 'off',
+		'jsx-a11y/no-static-element-interactions': 'off',
+		indent: 'off',
+	},
+	parserOptions: {
+		requireConfigFile: false,
+		babelOptions: {
+			presets: [ '@wordpress/babel-preset-default' ],
+		},
+	},
+	globals: {
+		alert: true,
+		confirm: true,
+		jQuery: true,
+		md_ai_content_writer_ajax_object: true,
+		md_ai_content_writer_settings: true,
+		CustomEvent: true,
+		Splide: true,
+		ajaxurl: true,
+		BevoshelvesWcDokanAddonAdminNoticeVars: true,
+		BevoshelvesWcDokanAddonLicenseVars: true,
+		location: true,
+	},
+};
